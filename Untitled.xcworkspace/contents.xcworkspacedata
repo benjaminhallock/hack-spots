@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <Group
+      location = "group:css"
+      name = "css">
+      <FileRef
+         location = "group:MarkerCluster.css">
+      </FileRef>
+      <FileRef
+         location = "group:MarkerCluster.Default.css">
+      </FileRef>
+      <FileRef
+         location = "group:site.css">
+      </FileRef>
+      <FileRef
+         location = "group:style.css">
+      </FileRef>
+   </Group>
+   <FileRef
+      location = "group:favico.png">
+   </FileRef>
+   <Group
+      location = "group:img"
+      name = "img">
+      <FileRef
+         location = "group:fbi_spinner.gif">
+      </FileRef>
+      <FileRef
+         location = "group:hackspotsss.png">
+      </FileRef>
+   </Group>
+   <FileRef
+      location = "group:index.html">
+   </FileRef>
+   <Group
+      location = "group:js"
+      name = "js">
+      <FileRef
+         location = "group:jquery.js">
+      </FileRef>
+      <FileRef
+         location = "group:leaflet.markercluster.js">
+      </FileRef>
+      <FileRef
+         location = "group:sheetsee.js">
+      </FileRef>
+      <FileRef
+         location = "group:tabletop1.3.4.js">
+      </FileRef>
+   </Group>
+   <FileRef
+      location = "group:license.md">
+   </FileRef>
+   <FileRef
+      location = "group:readme.md">
+   </FileRef>
+</Workspace>
