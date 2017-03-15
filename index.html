@@ -41,7 +41,7 @@
             <div id="map"></div>
         </div>
         -->
-        
+
         <div class="container">
             <input id="tableFilter" type="text" placeholder="filter by.."></input>
             <span class="clear button">Clear</span> <span class="resetMap button">Reset Map</span>
@@ -56,9 +56,9 @@
 
     <script id="hackSpotsTable" type="text/html">
         <table>
-            <tr><th class="tHeader">Name</th><th class="tHeader">MP</th><th class="tHeader">T.Gold</th><th class="tHeader">Total Purple</th><th class="tHeader">Total Dodge</th><th class="tHeader">Total P&D</th><th class="tHeader">Max Attack</th></tr>
+            <tr><th class="tHeader">Name</th><th class="tHeader">MP</th><th class="tHeader">T.Gold</th><th class="tHeader">Total Purple</th><th class="tHeader">Total Dodge</th><th class="tHeader">Total P&D</th><th class="tHeader">All Effects</th></tr>
             {{#rows}}
-                <tr id="{{rowNumber}}" class="spotRow"><td>{{name}}</td><td>{{mp}}</td><td>{{totalgold}}</td><td>{{totalpurple}}</td><td>{{totaldodge}}</td><td>{{totalpd}}</td><td>{{maxattack}}</td></tr>
+                <tr id="{{rowNumber}}" class="spotRow"><td>{{name}}</td><td>{{mp}}</td><td>{{totalgold}}</td><td>{{totalpurple}}</td><td>{{totaldodge}}</td><td>{{totalpd}}</td><td>{{alleffects}}</td></tr>
             {{/rows}}
         </table>
     </script>
